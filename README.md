@@ -38,7 +38,7 @@ npm install
 
 Jika Anda menggunakan Docker, jalankan perintah berikut untuk membangun dan menjalankan aplikasi:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 Jika Anda tidak menggunakan Docker, pastikan untuk mengatur database MySQL dan konfigurasi koneksi di file `.env`.
@@ -169,7 +169,7 @@ API akan tersedia di `http://localhost:3000`.
 ## Catatan Penggunaan Docker
 - Proyek ini menggunakan **Docker** untuk mempermudah pengaturan lingkungan dan menjalankan aplikasi.
 - Pastikan untuk mengatur file `.env` dengan variabel yang sesuai untuk database MySQL.
-- Anda dapat membangun dan menjalankan proyek dengan perintah `docker-compose up --build`.
+- Anda dapat membangun dan menjalankan proyek dengan perintah `docker compose up --build`.
 
 ## Lisensi
 Proyek ini bersifat open-source dan tersedia di bawah **MIT License**.
