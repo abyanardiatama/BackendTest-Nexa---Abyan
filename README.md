@@ -1,5 +1,3 @@
-Berikut adalah contoh **`README.md`** untuk proyek Anda:
-
 ```markdown
 # BackendTest Nexa - Abyan
 
